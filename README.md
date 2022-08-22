@@ -1,5 +1,5 @@
 # Grey-Scale-Histogram
-A very simple OpenCV program that converts BRG images to grayscale and displays a pixel intensity histogram
+A very simple OpenCV program that converts BRG images to grayscale and displays a pixel intensity histogram (Higher the bin value in histogram = closer the color intensity is to white)
 
 ## <ins>How to use</ins>
 1. Input direct path of image you want to process when asked to
