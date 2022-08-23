@@ -8,4 +8,5 @@ A very simple OpenCV program that converts BRG images to grayscale and displays 
 <img width="401" alt="image" src="https://user-images.githubusercontent.com/70067413/185826988-d89f4f9d-c455-4987-953c-6d58521a0fae.png">
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/70067413/185827006-246b9c73-28c5-42b7-9508-2d4ffe99be13.png">
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/70067413/185827030-e7582146-ad27-4e46-9e0c-0e0858c71fcd.png">
+<img width="478" alt="image" src="https://user-images.githubusercontent.com/70067413/186052978-ec670c1f-0473-46c4-be92-82c8d23f0768.png">
 
