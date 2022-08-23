@@ -8,15 +8,28 @@ cv.imshow('Selected Image', img)
 gray_scaled_image = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Gray Scaled Selected Image', gray_scaled_image)
 
+
+def Histogram_graph_setup():
+    plt.figure()
+    plt.title("Grayscale Histogram")
+    plt.xlabel("Bins")
+    plt.ylabel("# of pixels")
+
 #Grayscale Histogram
 gray_hist = cv.calcHist([gray_scaled_image], [0], None, [256], [0,256])
 
-plt.figure()
-plt.title("Grayscale Histogram")
-plt.xlabel("Bins")
-plt.ylabel("# of pixels")
+Histogram_graph_setup()
 plt.plot(gray_hist)
 plt.xlim(0,256)
+
+#Color Histogram
+Histogram_graph_setup()
+colors = ('b', 'g', 'r')
+for i, col in enumerate(colors):
+    hist = cv.calcHist([img], [i], None, [256], [0,256])
+    plt.plot(hist, color=col)
+    plt.xlim([0,256])
+
 plt.show()
 
 cv.waitKey(0)
