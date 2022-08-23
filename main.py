@@ -11,7 +11,7 @@ cv.imshow('Gray Scaled Selected Image', gray_scaled_image)
 # Histogram Setup
 def Histogram_graph_setup(ht):
     plt.figure()
-    plt.title()
+    plt.title(ht)
     plt.xlabel("Bins")
     plt.ylabel("# of pixels")
 
