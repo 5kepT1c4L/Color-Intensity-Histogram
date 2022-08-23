@@ -8,7 +8,7 @@ cv.imshow('Selected Image', img)
 gray_scaled_image = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Gray Scaled Selected Image', gray_scaled_image)
 
-
+# Histogram Setup
 def Histogram_graph_setup():
     plt.figure()
     plt.title("Grayscale Histogram")
